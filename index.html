@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- bootstrap css -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link href="https://cdn.lineicons.com/3.0/lineicons.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title> Home - Plan My Career</title>
+  <link rel="stylesheet" href="file.css">
+</head>
+
+<body class="home">
+  <header id="home">
+    <nav class="navbar navbar-expand-lg fixed-top scrolling-navbar">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img class="img-fluid" src="/images/PMC-logo.png" alt="" width="50" height="50"
+            class="d-inline-block align-text-top">
+          PLAN MY CAREER
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Jobs
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">browse-jobs</a></li>
+                <li><a class="dropdown-item" href="#">Job Income Hierarchy</a></li>
+                <li><a class="dropdown-item" href="#">Internship</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Career Tools
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Voice Discussion</a></li>
+                <li><a class="dropdown-item" href="#">Career Road Map</a></li>
+                <li><a class="dropdown-item" href="#">Interview</a></li>
+                <li><a class="dropdown-item" href="#">Jugad Techniques</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Education
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Universities</a></li>
+                <li><a class="dropdown-item" href="#">Colleges</a></li>
+                <li><a class="dropdown-item" href="#">Boards</a></li>
+                <li><a class="dropdown-item" href="#">Schools</a></li>
+                <li><a class="dropdown-item" href="#">Scholarships</a></li>
+                <li><a class="dropdown-item" href="#">Internships</a></li>
+                <li><a class="dropdown-item" href="#">Preparation</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Resume
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Resume</a></li>
+                <li><a class="dropdown-item" href="#">Resume Guidlines</a></li>
+                <li><a class="dropdown-item" href="#">Resume Samples</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Career
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Information Technology</a></li>
+                <li><a class="dropdown-item" href="#">Sports</a></li>
+                <li><a class="dropdown-item" href="#">Computer Science</a></li>
+                <li><a class="dropdown-item" href="#">Government Sector</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">Success <span>Stories</span></a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">Blogs</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                More
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">About</a></li>
+                <li><a class="dropdown-item" href="#">Privacy Policy</a></li>
+                <li><a class="dropdown-item" href="#">FAQ</a></li>
+                <li><a class="dropdown-item" href="#">Contact</a></li>
+              </ul>
+            </li>
+            <form class="d-flex">
+              <!-- <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"> -->
+              <button class="btn btn-custom" type="submit">LOGIN</button>
+              <button class="btn btn-custom" type="submit">SIGNUP</button>
+            </form>
+          </ul>
+        </div>
+      </div>
+
+      <div class="mobile-menu">
+        <div class="slicknav_menu">
+          <a href="#" areahaspopup="true" role="button" tabindex="0" class="slicknav_button slicknav_collapsed"></a>
+
+
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <div class="container container-fluid hero-area mb-5 ">
+    <div class="row space-100 mt-3">
+      <div class="col-lg-7 col-md-12 col-xs-12 mt-5">
+        <div class="mt-5">
+          <h2 class="d-flex justify-content-center mt-5" id="demo">Shape a Career That is a Dreamcatcher</h2>
+          <p>With your zeal and our knowledge, we will enable you to shape a career that will make your dreams
+            come true.
+          </p>
+          <div class="mt-5 job-search-form">
+            <form action="#">
+              <div class="row">
+                <div class="col-lg-10 col-md-10 col-xs-12">
+                  <div class="form-group">
+                    <input class="form-control-1" type="text" placeholder="Select your Dream Career">
+                  </div>
+                </div>
+                <div class="col-lg-2 col-md-2 col-xs-12 search">
+                  <button class="button" type="submit"><i class="lni lni-search"></i></button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-5 col-md-12 col-xs-12 mt-3">
+        <div class="mt-5  intro-img">
+          <img class="img-fluid mt-5" src="/images/intro.png" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section class="content-center text-center mt-5">
+    <div class="container">
+      <div class="my-2 text-center">
+        <b>
+          <h3 class="section-title d-flex justify-content-center mt-3">Browse Categories</h3>
+        </b>
+        <p class="mb-2">Choose Options from our Services</p>
+      </div>
+      <br>
+      <div class="row mt-3">
+        <div class="col-lg-3 col-md-6 col-xs-6 category-2">
+          <a href="#">
+            <div class="catlogo">
+              <img class="img-fluid" src="/images/university.png">
+            </div>
+            <h3>Universities</h3>
+          </a>
+        </div>
+        <div class="col-lg-3 col-md-6 col-xs-6 category-2">
+          <a href="#">
+            <div class="catlogo">
+              <img class="img-fluid" src="/images/college.png">
+            </div>
+            <h3>Colleges</h3>
+          </a>
+        </div>
+        <div class="col-lg-3 col-md-6 col-xs-6 category-2">
+          <a href="#">
+            <div class="catlogo">
+              <img class="img-fluid" src="/images/boards.png">
+            </div>
+            <h3>Boards</h3>
+          </a>
+        </div>
+        <div class="col-lg-3 col-md-6 col-xs-6 category-2">
+          <a href="#">
+            <div class="catlogo">
+              <img class="img-fluid" src="/images/school.png">
+            </div>
+            <h3>Schools</h3>
+          </a>
+        </div>
+        <div class="col-lg-3 col-md-6 col-xs-6 category-2">
+          <a href="#">
+            <div class="catlogo">
+              <img class="img-fluid" src="/images/intern.png">
+            </div>
+            <h3>Internships</h3>
+          </a>
+        </div>
+        <div class="col-lg-3 col-md-6 col-xs-6 category-2">
+          <a href="#">
+            <div class="catlogo">
+              <img class="img-fluid" src="/images/scholarship.png">
+            </div>
+            <h3>Scholarships</h3>
+          </a>
+        </div>
+        <div class="col-lg-3 col-md-6 col-xs-6 category-2">
+          <a href="#">
+            <div class="catlogo">
+              <img class="img-fluid" src="/images/preparation.png">
+            </div>
+            <h3>Preparations</h3>
+          </a>
+        </div>
+        <div class="col-lg-3 col-md-6 col-xs-6 category-2">
+          <a href="#">
+            <div class="catlogo">
+              <img class="img-fluid" src="/images/job.png">
+            </div>
+            <h3>Jobs</h3>
+          </a>
+        </div>
+        <a class="category-1  text-center" href="#">More<i class="bi bi-chevron-double-down"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <div class="container container-fluid mb-5">
+    <div class="row space-100 mt-5">
+      <div class="col-lg-6 col-md-12 col-sm-12">
+        <div class="text-wrapper mt-5">
+          <div class="mt-5">
+            <div class="text-center">
+              <h3>That Endless World Of Career Opportunities</h3>
+              <p>With a vast roster of career possibilities, choose the one which suits your talent pool.
+              </p>
+              <button class="button" href="#">CAREER OPTIONS
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-6 col-md-12 col-sm-12">
+        <div class="img-thumb mt-5">
+          <img class="img-fluid" src="/images/search.png" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr><br><br><br>
+
+  <div class="container container-fluid mb-5 mt-5">
+    <div class="section-header text-center">
+      <h2 class="section-title d-flex justify-content-center" id="demo">Career Road Map<i class="bi bi-geo-alt"></i>
+      </h2>
+      <p>With us preplan a failproof path to success in your career which will make your true potential come out
+        and make you a force to be reckoned with.</p>
+    </div>
+
+    <div class="row space-100">
+      <div class="col-lg-6 col-md-12 col-sm-12">
+        <div class="text-wrapper">
+          <div class="mt-5">
+            <div class="text-center">
+              <h3>The Path to Indomitable Success in Your Career</h3>
+              <p>Venturing into unknown waters without proper knowledge will make you a meal for
+                crocodiles in the water. Search through our extensive base of knowledge and find the
+                information which will help you to be successful.
+              </p>
+              <button class="button" href="#">Search Career
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-12 col-sm-12">
+        <div class="intro-img">
+          <img class="img-fluid" src="/images/rm.png" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr>
+  <br>
+
+  <div class="mt-2">
+    <div class="section-header text-center">
+      <h2 class="section-title d-flex justify-content-center mt-1">Money Is The Motivation, Money Is The Conversation</h2>
+      <p class="d-flex justify-content-center">Is your valuable investment of time and energy into a career going to
+        reward you with enough returns for
+        your efforts or are you doing futile work?</p>
+    </div>
+    <div class="container container-fluid">
+      <div class="row">
+        <div class="col-lg-6 col-md-12 col-sm-12">
+          <div class="img-thumb mt-3">
+            <img class="img-fluid" src="/images/happy.png" alt="">
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-12 col-sm-12">
+          <div class="text-wrapper">
+            <div class="text-center">
+              <h3>Job Satisfaction</h3>
+              <p>Are you settled cozily with your job, or are you hungry for more? If you are looking for
+                real growth, we can help you.</p>
+              <button class="button" href="#">Search jobs</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <hr>
+  <br><br>
+
+  <div id="browse-jobs" class="mt-5">
+    <div class="section-header text-center">
+      <h2 class="section-title d-flex justify-content-center">Search Schools and Colleges</h2>
+      <p class=" d-flex justify-content-center">PMC is here to Guide you the best Schools or Colleges at your desired
+        place
+      </p>
+    </div>
+    <div class="container container-fluid">
+      <div class="row">
+        <div class="col-lg-6 col-md-12 col-sm-12">
+          <div class="text-wrapper">
+            <div class="text-center">
+              <div>
+                <h3>Search Best Schools And Colleges at Your Place</h3>
+                <p>We provide the List of best among Schools and Colleges<br>
+                  At your desired location</p>
+                <button class="button" href="#" href="#">Search Schools</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-12 col-sm-12">
+          <div class="img-thumb mt-3">
+            <img class="img-fluid" src="/images/schools.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+  <hr><br><br>
+
+  <div >
+    <div class="section-header ">
+      <h2 class="section-title d-flex justify-content-center mt-1 pb-1">Let Your Work Define You</h2>
+      <p class="d-flex justify-content-center mb-2">With our tools, sharpen your skills to a scalpel-like precision and be an
+        artist at your work. A man’s
+        worth is the man’s skills.</p>
+    </div>
+
+    <div class="container container-fluid text-center mt-5 pb-5">
+      <div class="row">
+
+        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+          <div class="work-process">
+            <span class="process-icon">
+              <i class="bi bi-journal text-success"></i>
+            </span>
+            <h4>Resume Writing</h4>
+            <p>Create Resume with a proper format.</p>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+          <div class="work-process step-2">
+            <span class="process-icon">
+              <i class="bi bi-question-circle text-success"></i>
+            </span>
+            <h4>Interview Questions</h4>
+            <p>Practice the most asked Interview Questions by the Top companies</p>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+          <div class="work-process step-3">
+            <span class="process-icon">
+              <i class="bi bi-mic text-success"></i>
+            </span>
+            <h4>Voice Discussion</h4>
+            <p>Discuss with the Experts or Ask your Queries.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr><br>
+  <br>
+
+  <section class="mt-5 ">
+    <div class="container">
+      <div class="my-3 section-header mt-1">
+        <h2 class="section-title d-flex justify-content-center">Quotes</h2>
+      </div>
+      <div class="row d-flex justify-content-center">
+        <div class="col-lg-12 col-md-12 col-xs-12 d-flex justify-content-center">
+          <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner text-center mt-.25">
+              <div class="carousel-item active">
+                <div>
+                  <img class="my-2" src="/images/img3.png" alt="">
+                  <p>
+                    Morbi quam enim, cursus non erat pretium veh icula finibus ex
+                    stibulum venenatis viverra dui Morbi quam enim, cursus non erat pretium veh
+                    icula finibus ex stibulum venenatis viverra dui Morbi quam enim, cursus non erat
+                    pretium veh icula finibus ex stibulum venenatis viverra dui.
+                  </p>
+                  <h2><a class="author" href="#">Helen</a></h2>
+                  <span class="post">Engineer</span>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <div>
+                  <img class="my-2" src="/images/img2.png" alt="">
+                  <p>
+                    Morbi quam enim, cursus non erat pretium veh icula finibus ex
+                    stibulum venenatis viverra dui Morbi quam enim, cursus non erat pretium veh
+                    icula finibus ex stibulum venenatis viverra dui Morbi quam enim, cursus non erat
+                    pretium veh icula finibus ex stibulum venenatis viverra dui.
+                  </p>
+                  <h2><a class="author" href="#">Jessica</a></h2>
+                  <span class="post">Product Managaer</span>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <div>
+                  <img class="my-2" src="/images/img1.png" alt="">
+                  <p>
+                    Morbi quam enim, cursus non erat pretium veh icula finibus ex
+                    stibulum venenatis viverra dui Morbi quam enim, cursus non erat pretium veh
+                    icula finibus ex stibulum venenatis viverra dui Morbi quam enim, cursus non erat
+                    pretium veh icula finibus ex stibulum venenatis viverra dui.
+                  </p>
+                  <h2><a class="author" href="#">John Deo</a></h2>
+                  <span class="post">Doctor</span>
+                </div>
+              </div>
+
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+
+            <div class="carousel-indicators">
+              <button type="button" id="btn-1" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" id="btn-2" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+              <button type="button" id="btn-3" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+            </div>  
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="download" class="mt-5 py-4">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-md-8 col-xs-12">
+          <div class="download-wrapper">
+            <div>
+              <div class="download-text">
+                <h4>Download Our PMC App</h4>
+                <p class="mb-3">Enjoy the PMC app in your hands by installing it your mobile. Never miss any update
+                  regarding career </p>
+              </div>
+              <div class="app-button">
+                <a button class="button-3" href="#"><i class="lni lni-apple">
+                </i>Download<br><span>From
+                  Apple store</span></a></button>
+
+
+              <a button class="button-3 btn-common" href="#"><i class="lni lni-play-store"></i>Download
+                <br><span>From Play Store</span></a></button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-4 col-xs-12">
+          <div class="download-thumb">
+            <img class="img-fluid" src="images/app.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <section class="footer-Content">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-3 col-xs-12">
+            <div class="widget">
+              <div class="footer-logo"><img src="/images/PMC-logo.png" alt="Plan My Career">
+              </div>
+              <div class="textwidget">
+                <p>Plan My Career is a overall tool for your problems regaring your Career. We provide
+                  the best career options that suits your standard</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-3 col-xs-12">
+            <div class="widget">
+              <h3 class="block-title">Quick Links</h3>
+              <div class="vertical-menu mt-3">
+                <a href="#">About Us</a>
+                <a href="#">Support</a>
+                <a href="#">License</a>
+                <a href="#">Contact</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-3 col-xs-12 ">
+            <div class="widget">
+              <div class="vertical-menu mt-5">
+                <a href="#">Terms & Conditions</a>
+                <a href="#">Privacy</a>
+                <a href="#">Refferal Terms</a>
+                <a href="#">Product License</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-3 col-xs-12">
+            <div class="widget">
+              <h3 class="block-title">Subscribe Now</h3>
+              <p>subscibe plan my career for all new updates</p>
+              <form method="post" id="subscribe-form" name="subscribe-form" class="validate">
+                <div class="mb-2 form-group is-empty">
+                  <input type="email" value="" name="Email" class="form-control mt-2" id="EMAIL" placeholder="Enter Email..."
+                    required="">
+                  <button type="submit" class="btn btn-common sub-btn mt-2">
+                    <i class="bi bi-envelope icon"></i>
+                  </button>
+                  <div class="clearfix"></div>
+                </div>
+              </form>
+
+              <ul class="mt-3 footer-social">
+                <li><a class="facebook" href="#"><i class="lni lni-facebook-filled"></i></a></li>
+                <li><a class="twitter" href="#"><i class="fa">&#xf099;</i></a></li>
+                <li><a class="linkedin" href="#"><i class="fa">&#xf08c;</i></a></li>
+                <li><a class="google-plus" href="#"><i class="fa">&#xf0d5;</i></a></li>
+              </ul>
+              <button onclick="topFunction()" id="myBtn" title="Go to top"><i
+                  class="lni lni-arrow-up"></i></button>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </footer>
+
+  <div class="copyright">
+    <p>Copyright reserved to Plan My Careers</p>
+  </div>
+
+  <button onclick="topFunction()" id="myBtn" title="Go to top"><i
+      class="lni lni-arrow-up"></i></button>
+
+  <script>
+    //Get the button
+    var mybutton = document.getElementById("myBtn");
+
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function () { scrollFunction() };
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="/js/scroll.js"></script>
+
+</body>
+
+</html>

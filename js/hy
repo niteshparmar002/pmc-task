@@ -1,0 +1,32 @@
+<section>
+    <div style="margin-bottom:80px" id="browse-jobs" class="section">
+      <div class="container container-fluid">
+        <div class="row">
+          <div class="col-lg-6 col-md-8 col-xs-12">
+            <div class="text-wrapper">
+              <div style="margin-top: 140px; ">
+                <h3>Download Our PMC App</h3>
+                <p>Enjoy the PMC app in your hands by installing it your mobile. Never miss any update
+                  regarding career
+                </p>
+
+                <a button class="button-3" href="#"><i style="font-size: 1.5rem;" class="lni lni-apple">
+                  </i>Download<br><span>From
+                    Apple store</span></a></button>
+
+
+                <a button class="button" href="#"><i style="font-size: 1.5rem;" class="lni lni-play-store"></i>Download
+                  <br><span>From Play Store</span></a></button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div style="margin-top: 90px; " class="col-lg-6 col-md-4 col-xs-12">
+            <div class="img-thumb">
+              <img class="img-fluid" src="/images/app.png" alt="">
+            </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
