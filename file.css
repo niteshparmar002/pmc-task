@@ -2,6 +2,10 @@
   display: block;
 }
 
+/* .navbar-collapse{
+  background-color: black;
+} */
+
 #myBtn {
   display: none;
   position: fixed;
